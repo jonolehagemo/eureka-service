@@ -1,0 +1,38 @@
+/db/*
+
+*.class
+*.log
+dependency-reduced-pom.xml
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IDE
+*.iml
+.idea
+
+# Node/npm
+**/dist
+**/node_modules
+target
+log
+
+# OrientDB
+CommonDataStorage
+*.cm
+*.cpm
+*.fl
+*.ocf
+*.pcl
+*.sbt
+*.wal
+*.wmr
+.mvn/
